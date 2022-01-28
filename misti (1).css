@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+html {
+    font-family: "Roboto Mono";
+    font-size: 15px;
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url('b9.jpg');
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 12%;
+    width: 100%;
+    /* padding: 40px 100px; */
+}
+.name-title{
+    font-size: 1.5rem;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1.5rem;
+    padding:1rem;
+    text-decoration: none;
+    position: relative;
+
+}
+.name-title a{
+    text-decoration: none;
+    color:grey;
+    padding: 0.5rem;
+    position: relative;
+}
+.name-title a:hover{ 
+    text-decoration: underline;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:grey;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    position: relative;
+}
+
+.navbar-links li:hover{ 
+    text-decoration: underline;
+}
+img{
+    height:auto;
+    width:210px;
+    float:right ;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 30%;
+    border-width:medium;
+    /* border-style; */
+    border-color: black;
+    }
+#home{
+    margin: 25px;
+    padding-top: 3%;
+    padding-bottom: 20px;
+}
+h1{
+    /* text-align:left; */
+    color:dimgray;
+    font-size: 2.7rem;
+    margin: 30px;
+    padding: 10px;
+    padding-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color:chocolate;
+    margin: 20px;
+
+}
+button{
+    background-color:black; 
+    opacity: 40%;
+  border:darkslategrey;
+  margin: 10px;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 12px;
+  border: radius 5%;
+  align-items: center;
+  
+}
+button a{
+    text-decoration: none;
+    color:cadetblue;
+    padding: 0.1rem;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+button:hover{
+    text-decoration: underline;
+}
+#hobbies{
+padding: top 8px;
+ margin-bottom: 80px;
+}
+h1.hobbies{
+    text-align:center;
+    color:dimgray;
+    size: 40px;
+    margin: 40px 40px 40px 40px;
+    padding-top:9%;
+}
+
+.hob{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color:lightcoral;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1px;rem;
+    margin:1.5rem;
+    font-size: 42px;
+} 
+
+ul.icons{
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 50px;
+    padding:00px;
+    margin:0px;
+    display: flex;
+    border:black;
+}
+#skills{
+    padding-top: 2%;
+}
+h1.skills{
+    text-align:center;
+    color:dimgray;
+    size: 40px;
+    margin: 40px;
+    padding: 20px;
+
+}
+
+.skills li{
+    margin-left: 100px;
+    font-size: 10px;
+    padding: 10px;
+
+}
+.progress-bar {
+    width: 800px;
+    height: 20px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(245, 159, 0);
+    margin-left: 20%;
+}
+h2.progress{
+    margin-left: 20%;
+}
+.percentage {
+    display: block;
+    height: 100%;
+    background-color:rosybrown;
+    border-radius: 5px;
+    animation: progress 2s ease-in 3;
+}
+.html {
+    width: 65%;
+}
+
+.css {
+    width: 30%;
+}
+
+.python {
+    width: 55%;
+}
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+/* .progressbar{
+    margin-left:15% ;
+}
+.progressbar ul li{
+    display: inline;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 40px;
+}*/
+
+ .htmlbar{
+    margin: 2% 0;
+    border-radius: 0;
+    font-size: 150%;
+    margin-top: 10px;
+    width: 80%;
+    color: lightcoral; 
+    border-radius: 40%;
+    background:ghostwhite;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px;
+}
+
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:slategrey;
+    color: white;
+    text-align: center;
+    height:200px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.contact{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 30px;
+    word-spacing: 30px;
+    
+}
+.contact ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0.2rem;
+    font-size: 30px;
+    list-style: none;
+}
+.contact ul a{
+    text-decoration: none;
+    color:white;
+    padding: 0.5rem;
+    position: relative;
+}
+.contact ul a:hover{
+    text-decoration: underline;
+}
